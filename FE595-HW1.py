@@ -10,6 +10,8 @@ plt.plot(x, y, x, z)
 plt.ylim(-1, 1)
 plt.plot(x, tan)
 plt.legend(labels=["sin", "cos", "tan"], loc="lower left")
-lt.show()
+
+if __name__ == "__main__":
+    plt.show()
 
 
